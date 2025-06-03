@@ -1,3 +1,7 @@
+// Variables
+let humanScore = 0;
+let computerScore = 0;
+
 function getComputerChoice (){
     let roll = Math.random(3);
     if (roll == 1){
@@ -13,7 +17,7 @@ function getComputerChoice (){
 
 function getHumanChoice (){
     let msg = "Rock | Paper | Scissors";
-    prompt(msg);
+    let choice = prompt(msg);
 }
 
 console.log(getHumanChoice());
