@@ -1,3 +1,16 @@
 function getComputerChoice (){
-    return Math.random(3);
+    let roll = Math.random(3);
+    if (roll == 1){
+        return "Rock"
+    }
+    if (roll == 2){
+        return "Paper"
+    }
+    if (roll == 3){
+        return "Scissors"
+    }
+}
+
+function getHumanChoice (){
+    
 }
