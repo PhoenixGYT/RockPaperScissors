@@ -1,16 +1,19 @@
 function getComputerChoice (){
     let roll = Math.random(3);
     if (roll == 1){
-        return "Rock"
+        return "Rock";
     }
     if (roll == 2){
-        return "Paper"
+        return "Paper";
     }
     if (roll == 3){
-        return "Scissors"
+        return "Scissors";
     }
 }
 
 function getHumanChoice (){
-    
+    let msg = "Rock | Paper | Scissors";
+    prompt(msg);
 }
+
+console.log(getHumanChoice());
