@@ -1,0 +1,140 @@
+@font-face {
+    font-family: Itim;
+    src: url(https://fonts.gstatic.com/s/itim/v15/0nknC9ziJOYe8BdAkP7Z.woff2) format('woff2');
+    unicode-range: U+02D7, U+0303, U+0331, U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* Headers */
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: #59AD9C;
+    width: 100%;
+    height: 40px;
+}
+
+button.home{
+    
+}
+
+
+/* Main */
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #D9D9D9;;
+}
+
+.mcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rpsbutton-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.rpsbutton-container ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    gap: 100px;
+}
+
+.rpsbutton-container li{
+    width: 211.957px;
+    height: 211.151px;
+    flex-shrink: 0;
+    aspect-ratio: 211.96/211.15;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.rpsbutton-container img{
+    object-fit: contain;
+    background: transparent;
+}
+
+.rpsbutton-container button{
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+img#rock{
+    margin-left: 30px;
+}
+
+img#paper{
+    height: 100%;
+    width: 100%;
+    scale: 200%;    
+    margin-left: 30px;
+}
+
+img#scissors{
+    border-radius: 131px;
+}
+
+/* footer */
+#footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #4B4A4A;
+    width: 100%;
+    height: 40px;
+    flex-shrink: 0;
+    color: white;
+}
+
+
+#start {
+    display: flex;
+    position: absolute;
+    align-self: center;
+    justify-content: center;
+    top: 150px;
+}
+
+#start button{
+    width: 292px;
+    height: 171px;
+    flex-shrink: 0;
+    border: 68px;
+    border-radius: 68px;
+    background: #61D4B0;
+    font-size: 64px;
+    color: white;
+    text-align: center;
+    font-family: Itim, sans-serif, serif;
+    
+}
