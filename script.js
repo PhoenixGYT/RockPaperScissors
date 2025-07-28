@@ -2,7 +2,7 @@
 
 
 document.getElementById("start-btn").addEventListener("click", function(){
-    window.open("/game/rps.html", "_self");
+    window.open("rps.html", "_self");
 });
    
 
